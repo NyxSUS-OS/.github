@@ -1,137 +1,94 @@
----
+# Nyxsus OS
 
-```markdown
-# 🛡️ Nyxsus OS - Your Gateway to Ethical Hacking & Cybersecurity Mastery
+**Nyxsus OS** is a Linux-based, security-focused operating system crafted for cybersecurity professionals, ethical hackers, digital forensics experts, and privacy-conscious developers. Built with stability, performance, and usability in mind, Nyxsus OS delivers a comprehensive toolkit and secure environment for offensive and defensive security workflows.
 
-Welcome to **Nyxsus OS** – a powerful, beginner-friendly Linux-based operating system built from the ground up for cybersecurity, penetration testing, digital forensics, and ethical hacking.
-
-Inspired by industry giants like **Kali Linux** and **Parrot OS**, Nyxsus OS is designed with both **newbies** and **seasoned professionals** in mind. Whether you're taking your first steps into the hacking world or performing red-team operations, **Nyxsus OS** provides everything you need – secure, stable, and sleek.
+> Inspired by distributions like Kali Linux and Parrot OS, Nyxsus OS emphasizes accessibility for beginners without compromising the needs of advanced users.
 
 ---
 
-## 🌌 Features
+## 🔐 Key Features
 
-✅ **Beginner Friendly**  
-Clean UI/UX, easy navigation, documentation-rich environment to learn as you explore.
+- **Security-Centric Architecture**  
+  Hardened kernel, sandboxed environments, AppArmor integration, and minimal background services for enhanced security.
 
-✅ **Pre-installed Cyber Tools**  
-Packed with the best hacking, penetration testing, and OSINT tools – from **Nmap**, **Wireshark**, and **Metasploit**, to **Burp Suite**, **Aircrack-ng**, and more.
+- **Beginner Friendly**  
+  Intuitive desktop environment, documentation-first design, and pre-configured tools to simplify onboarding for students and entry-level cybersecurity enthusiasts.
 
-✅ **Custom Toolkits**  
-Nyxsus OS comes with its own curated toolkit (`nyx-toolkit`) tailored for modern-day ethical hackers and cyber warriors.
+- **Comprehensive Toolkit**  
+  Includes a curated set of tools for penetration testing, digital forensics, OSINT, reverse engineering, wireless attacks, and more.
 
-✅ **Lightweight & Fast**  
-Optimized for performance, runs smoothly even on low-end machines (2GB+ RAM supported).
+- **Lightweight & Efficient**  
+  Optimized for performance across low-spec machines and virtual environments.
 
-✅ **Secure by Default**  
-Sandboxing, AppArmor profiles, and custom security patches to keep your data and tests isolated.
-
-✅ **Developer-First**  
-Compatible with major programming environments: Python, Go, C/C++, Bash, and JavaScript (Node.js).
-
-✅ **Anonsurf Integration**  
-Route your traffic anonymously through Tor with one command.
+- **Modular Design**  
+  Easily customizable. Add or remove tool categories based on your workflow.
 
 ---
 
-## 🔥 Pre-installed Tools Categories
+## 🧰 Tools Overview
 
-| Category            | Examples                                     |
-|---------------------|----------------------------------------------|
-| 🔍 Information Gathering | Nmap, TheHarvester, WhatWeb                |
-| 🚪 Vulnerability Analysis | Nikto, Skipfish, OpenVAS                   |
-| 💣 Exploitation Tools    | Metasploit Framework, Searchsploit         |
-| 🕸️ Web App Testing       | Burp Suite, SQLMap, XSSer                   |
-| 📡 Wireless Attacks      | Aircrack-ng, Wifite, Reaver                 |
-| 👁️ OSINT Tools           | Maltego CE, Recon-ng, Shodan CLI           |
-| 🛠️ Reverse Engineering   | Ghidra, Radare2, Binary Ninja               |
-| 📂 Forensics Tools       | Autopsy, Sleuth Kit, Volatility            |
-| 🎭 Anonymity & Tunneling | Tor, Proxychains, Anonsurf                 |
+Nyxsus OS ships with pre-installed tools organized by category:
+
+| Category              | Tools (Sample)                                 |
+|-----------------------|------------------------------------------------|
+| Reconnaissance        | Nmap, WhatWeb, TheHarvester                    |
+| Vulnerability Scanning| Nikto, OpenVAS, Skipfish                       |
+| Exploitation Framework| Metasploit, Searchsploit                       |
+| Web Application Testing| Burp Suite, SQLMap, XSSer                     |
+| Wireless Security     | Aircrack-ng, Reaver, Wifite                    |
+| Reverse Engineering   | Ghidra, Radare2                                |
+| Digital Forensics     | Autopsy, SleuthKit, Volatility                 |
+| OSINT & Anonymity     | Recon-ng, Maltego CE, Proxychains, Anonsurf   |
+
+---
+
+## 💻 System Requirements
+
+- **Architecture:** x64  
+- **RAM:** 2 GB minimum (4 GB recommended)  
+- **Storage:** 20 GB minimum  
+- **Virtualization:** Supported on VirtualBox, VMware, QEMU
 
 ---
 
 ## 🚀 Getting Started
 
-### 💻 System Requirements
+### 1. Live Boot
 
-- 🧠 **RAM:** 2 GB (4 GB recommended)  
-- 💽 **Storage:** 20 GB free disk space  
-- 🖥️ **Processor:** x64 architecture  
-- 🌐 **Internet:** For tool updates and installations
+- Download the latest ISO
+- Flash to USB using [Rufus](https://rufus.ie) or [Balena Etcher](https://etcher.io)
+- Boot and explore without installation
 
----
+### 2. Virtual Machine Setup
 
-### 🧪 Installation Methods
+- Compatible with VirtualBox, VMware, and GNOME Boxes
+- Recommended: 2+ CPU cores, 4 GB RAM
 
-1. **Live Boot from USB/DVD**
-   - Download the ISO
-   - Flash it using [Rufus](https://rufus.ie/) or [Etcher](https://etcher.io/)
-   - Boot and test without installing
+### 3. Full Installation
 
-2. **Install on Virtual Machine**
-   - Use [VirtualBox](https://www.virtualbox.org/) or [VMware](https://www.vmware.com/)
-   - Allocate 2+ GB RAM, 2 CPU cores, and 20 GB disk space
-
-3. **Full Installation on Hardware**
-   - Follow the installer and customize your partitioning
-   - Secure boot compatible
+- Follow the guided installer for a complete, persistent setup on hardware
 
 ---
 
 ## 📚 Documentation
 
-📖 [Official Docs](https://nyxsus-os.org/docs) *(Coming Soon)*  
-📦 [Tool Index](https://nyxsus-os.org/tools) *(Coming Soon)*  
-💬 [Community Forum](https://community.nyxsus-os.org) *(Coming Soon)*  
-📺 [Tutorials & Guides](https://youtube.com/@NyxsusOS) *(Coming Soon)*
+Official documentation, tool references, and tutorials are in development and will be available soon:
+
+- [User Guide](https://nyxsus-os.org/docs) *(Coming Soon)*  
+- [Tool Index](https://nyxsus-os.org/tools) *(Coming Soon)*  
+- [Video Tutorials](https://youtube.com/@NyxsusOS) *(Coming Soon)*
 
 ---
 
-## 🧑‍💻 For Developers
+## 👨‍💻 Contributing
 
-Want to contribute to Nyxsus OS?
+Nyxsus OS is open-source and welcomes contributions. You can contribute to:
+
+- Tool integrations
+- Documentation
+- Security hardening
+- UI/UX improvements
 
 ```bash
 git clone https://github.com/thedvlprguy/nyxsus-os
 cd nyxsus-os
-```
-
-Start building, tweaking, and adding modules! Contributions, bug reports, and ideas are welcome. See the [CONTRIBUTING.md](CONTRIBUTING.md) file to get started.
-
----
-
-## 🧙 Who is it for?
-
-- 👨‍🎓 Students exploring cybersecurity  
-- 🧑‍💻 Ethical hackers & pentesters  
-- 🛡️ Cybersecurity professionals  
-- 👩‍💻 CTF Players & OSINT enthusiasts  
-- 💻 Developers with a love for privacy & freedom
-
----
-
-## 🌐 Social & Support
-
-- GitHub: [@thedvlprguy](https://github.com/thedvlprguy)
-- YouTube: [Nyxsus OS Channel](https://youtube.com/@NyxsusOS) *(Coming Soon)*
-- Discord: *(Coming Soon)*
-
----
-
-## 🧠 Philosophy
-
-> "**Nyxsus**" – derived from *Nyx*, the Greek goddess of the night.  
-> Just like the night conceals the unseen, **Nyxsus OS** empowers you to uncover hidden layers of the digital world with stealth and skill.
-
----
-
-## 📜 License
-
-Nyxsus OS is released under the **GNU GPL v3.0** license. See the [LICENSE](LICENSE) file for details.
-
----
-
-### ⭐ Star this repo to support the project & join our journey into the depths of cybersecurity!
-```
-
----
